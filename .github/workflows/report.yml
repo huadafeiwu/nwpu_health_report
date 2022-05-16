@@ -10,7 +10,7 @@ on:
     - cron:  0 2 * * *
 
 jobs:
-  checkin:
+  report:
     runs-on: ubuntu-latest
     steps:
         - name: 'Checkout codes'
@@ -36,7 +36,7 @@ jobs:
               && chromedriver --version
         - name: Checkin
           run: |
-            python3 report.py 
+            python3 health_report.py 
           env: 
             USERNAME: ${{ secrets.USERNAME }}
             PASSWORD: ${{ secrets.PASSWORD }}
