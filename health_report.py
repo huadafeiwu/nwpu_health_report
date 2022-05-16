@@ -28,9 +28,10 @@ time.sleep(1)
 
 browser.get('https://yqtb.nwpu.edu.cn/wx/xg/yz-mobile/index.jsp')
 browser.get('https://yqtb.nwpu.edu.cn/wx/ry/jrsb_xs.jsp')
+time.sleep(1)
 
-browser.find_element_by_link_text(u"提交填报信息").click()
-#browser.find_element(By.CLASS_NAME, "weui-btn-area").click() # 提交填报信息
+#browser.find_element_by_link_text(u"提交填报信息").click()
+browser.find_element(By.LINK_TEXT, u"提交填报信息").click() # 提交填报信息
 browser.find_element(By.XPATH, "//i[@class='weui-icon-checked']").click() # 已核实 
 browser.find_element(By.ID, "save_div").click() # 确认提交
 time.sleep(1)
