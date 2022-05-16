@@ -4,10 +4,10 @@
 
   1. fork此仓库
 
-  2. 在仓库的Settings -> Secrets -> Actions中分别创建：
+  2. 在仓库的Settings -> Secrets -> Actions中新建两项secret：
   
-      USERNAME： value为学号
+      name:USERNAME  value:学号
     
-      PASSWORD： value为密码
+      name:PASSWORD  value:密码
 
   注：在仓库的Actions中直接run workflow可以测试是否能正确运行
