@@ -34,7 +34,7 @@ jobs:
               && sudo mv chromedriver /usr/local/bin/chromedriver \
               && sudo chmod +x /usr/local/bin/chromedriver \
               && chromedriver --version
-        - name: Checkin
+        - name: Report
           run: |
             python3 health_report.py 
           env: 
