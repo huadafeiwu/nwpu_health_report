@@ -35,5 +35,4 @@ browser.find_element(By.XPATH, "//i[@class='weui-icon-checked']").click() # å·²æ
 browser.execute_script('javascript:save();')
 time.sleep(1)
     
-driver.close()
-driver.quit()
+browser.quit()
