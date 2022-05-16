@@ -2,8 +2,10 @@
 
 使用说明：
 
-  在Settings -> Secrets -> Actions中分别创建：
+  1. fork此仓库
+
+  2. 在仓库的Settings -> Secrets -> Actions中分别创建：
   
-    USERNAME： value为学号
+      USERNAME： value为学号
     
-    PASSWORD： value为密码
+      PASSWORD： value为密码
