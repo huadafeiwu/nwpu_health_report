@@ -38,5 +38,5 @@ jobs:
           run: |
             python3 report.py 
           env: 
-            USER: ${{ secrets.USER }}
+            USERNAME: ${{ secrets.USERNAME }}
             PASSWORD: ${{ secrets.PASSWORD }}
