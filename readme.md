@@ -9,3 +9,5 @@
       USERNAME： value为学号
     
       PASSWORD： value为密码
+
+  注：在仓库的Actions中直接run workflow可以测试是否能正确运行
