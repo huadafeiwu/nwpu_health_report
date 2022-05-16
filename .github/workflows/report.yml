@@ -1,4 +1,4 @@
-name: glados-checkin
+name: nwpu_health_report
 
 on:
   workflow_dispatch: 
