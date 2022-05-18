@@ -1,4 +1,4 @@
-通过github action在每天的北京时间8:00(0:00 UTC) 自动运行
+通过github action在每天的北京时间7:00(23:00 UTC) 自动运行
 
 使用说明：
 
