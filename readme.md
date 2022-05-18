@@ -4,7 +4,9 @@
 
   1. fork此仓库
 
-  2. 在仓库的Settings -> Secrets -> Actions中新建两项secret：
+  2. 在Actions中启用workflow
+
+  3. 在仓库的Settings -> Secrets -> Actions中新建两项secret：
   
       name:USERNAME  value:学号
     
