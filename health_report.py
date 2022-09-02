@@ -32,7 +32,7 @@ browser.get('https://yqtb.nwpu.edu.cn/wx/ry/jrsb_xs.jsp')
 browser.refresh()
 time.sleep(1)
 
-#browser.find_element(By.LINK_TEXT, "提交填报信息").click() # 提交填报信息
+browser.find_element(By.LINK_TEXT, "提交填报信息").click() # 提交填报信息
 #browser.find_element(By.XPATH, "//i[@class='weui-icon-checked']").click() # 已核实 
 #browser.find_element(By.ID, "save_div").click() # 确认提交
 #time.sleep(1)
