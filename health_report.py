@@ -14,6 +14,9 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 browser = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
 
+# open nwpu
+browser.get('https://uis.nwpu.edu.cn/cas/login?service=https://ecampus.nwpu.edu.cn/')
+browser.maximize_window()
 
 
 browser.quit()
