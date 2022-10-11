@@ -23,7 +23,7 @@ username = browser.find_element(By.ID, 'username')
 username.send_keys(USERNAME)
 password = browser.find_element(By.ID, 'password')
 password.send_keys(PASSWORD)
-browser.find_element(By.CLASS_NAME, 'el-button el-button--primary el-button--medium is-round').click()
+addr = browser.find_element(By.CLASS_NAME, 'el-button el-button--primary el-button--medium is-round')
 time.sleep(1)
 
 browser.quit()
