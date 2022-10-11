@@ -22,10 +22,10 @@ time.sleep(5)
 # login
 username = browser.find_element(By.ID, 'username')
 username.send_keys(USERNAME)
-password = browser.find_element(By.ID, 'password')
-password.send_keys(PASSWORD)
+#password = browser.find_element(By.ID, 'password')
+#password.send_keys(PASSWORD)
 
-aabb = browser.find_element(By.NAME, "execution")
+#aabb = browser.find_element(By.NAME, "execution")
 time.sleep(1)
 
 browser.quit()
