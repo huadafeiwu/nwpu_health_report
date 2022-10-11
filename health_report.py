@@ -22,8 +22,9 @@ username.send_keys(stu_number)
 stu_password = ''
 password = browser.find_element(By.ID, "password")
 password.send_keys(stu_password)
-#browser.find_element(By.XPATH, "//label[@class='el-button el-button--primary el-button--medium is-round']").click()
-browser.find_element(By.CSS_SELECTOR, "#fm1 > div:nth-child(4) > div > input.el-button.el-button--primary.el-button--medium.is-round").click()
+browser.find_element(By.XPATH, "//i[@class='el-button el-button--primary el-button--medium is-round']").click()
+#browser.find_element(By.CSS_SELECTOR, "#fm1 > div:nth-child(4) > div > input.el-button.el-button--primary.el-button--medium.is-round").click()
+
 time.sleep(5)
 browser.refresh()
 
