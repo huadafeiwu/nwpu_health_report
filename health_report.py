@@ -5,8 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 import os
 
-# open chrome
-browser = webdriver.Chrome()
+
 
 # open nwpu
 browser.get('https://uis.nwpu.edu.cn/cas/login?service=https://ecampus.nwpu.edu.cn/')
