@@ -22,12 +22,13 @@ time.sleep(5)
 # login
 browser.find_element(By.CSS_SELECTOR, "#vue_main > div:nth-child(2) > div.sw-login.sw-cloud-platform-nwpu-login > div > div:nth-child(2) > div:nth-child(3) > div > div > div:nth-child(1) > ul > li:nth-child(3)").click()
 username = browser.find_element(By.ID, "username")
+stu_number = ''
+username.send_keys(stu_number)
+stu_password = ''
+password = browser.find_element(By.ID, "password")
+password.send_keys(stu_password)
 
-username.send_keys(USERNAME)
-#password = browser.find_element(By.ID, 'password')
-#password.send_keys(PASSWORD)
-
-#aabb = browser.find_element(By.NAME, "execution")
+browser.find_element(By.NAME, "execution").click()
 time.sleep(1)
 
 browser.quit()
