@@ -20,6 +20,7 @@ browser.maximize_window()
 time.sleep(5)
 
 # login
+browser.find_element(By.CSS_SELECTOR, "#vue_main > div:nth-child(2) > div.sw-login.sw-cloud-platform-nwpu-login > div > div:nth-child(2) > div:nth-child(3) > div > div > div:nth-child(1) > ul > 
 username = browser.find_element(By.ID, 'username')
 username.send_keys(USERNAME)
 #password = browser.find_element(By.ID, 'password')
