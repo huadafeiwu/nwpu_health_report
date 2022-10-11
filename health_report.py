@@ -23,7 +23,7 @@ username = browser.find_element(By.ID, "username")
 username.send_keys(USERNAME)
 password = browser.find_element(By.ID, "password")
 password.send_keys(PASSWORD)
-browser.find_element(By.NAME, "submit").click()
+browser.find_element(By.NAME, "button").click()
 time.sleep(1)
 
 browser.quit()
